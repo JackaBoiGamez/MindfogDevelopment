@@ -1,0 +1,20 @@
+:root {
+    color-scheme: dark;
+
+    --background: #1d2025;
+    --background-light: #23282e;
+    --background-lighter: #3c4550;
+
+    --shadow: #15171d;
+    --text: #eee;
+    --text-secondary: #cccc;
+    --text-link: #7bf;
+    --text-deactivated: #7f8285;
+    --deactivated: #4a4b4f;
+
+    --selection: #3a81de;
+
+    --accent-purple: #8319fc;
+    --accent-purple-light: #9646ff;
+
+}

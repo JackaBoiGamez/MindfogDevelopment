@@ -1,0 +1,31 @@
+.button {
+    padding: 10px 30px;    
+    width: fit-content;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1000px;
+    background-color: var(--accent-purple);
+    transition: .2s;
+}
+
+a:has(.button) {
+    text-decoration: none !important;
+}
+
+.button:not(.deactivated):hover {
+    background-color: var(--accent-purple-light);
+    box-shadow: 0 0 30px 5px var(--shadow);
+    transition: .2s;
+}
+
+.button.deactivated {
+    background-color: var(--deactivated) !important;
+    color: var(--text-deactivated) !important;
+    cursor: default !important;
+}
+
+.button div {
+    margin-right: 10px;
+    transition: .2s;
+}

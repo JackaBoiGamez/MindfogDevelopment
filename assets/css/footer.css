@@ -1,0 +1,27 @@
+footer {
+    width: 100%;
+    padding: 50px 10px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: var(--background-light);
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+footer img {
+    height: 70px
+}
+
+.footer-bottom {
+    text-align: center;
+    color: var(--text-deactivated);
+}
+
+.footer-bottom-copyright {
+    color: inherit;
+    margin-bottom: 10px;
+}
