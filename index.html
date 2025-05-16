@@ -5,71 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mDev</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/ee1427c2d9.js" crossorigin="anonymous"></script>
     <script src="./assets/js/jquery.min.js"></script>
     <link rel="icon" type="image/png" href="./assets/images/Small_MFDLogo.png">
 </head>
 <body>
-    <div class="body-wrapper">
-        <div class="hero">
-            <img src="./assets/images/temp-herobg.png" class="hero-bg" style="transform: translateY(0px);">
-            <div class="hero-bg-vignette"></div>
-            <a href="/">
-                <img src="./assets/images/MFDLogo.png" class="logo">
-            </a>
-            <div class="scroll-icon">
-                <img src="./assets/images/scroll.svg">
-            </div>
-        </div>
-        <header>
-            <nav>
-                <a href="./index.html" class="image"><img src="./assets/images/Small_MFDLogo.png"></a>
-                <a href="./index.html" selected><div>HOME</div></a>
-                <a href="./news.html"><div>NEWS</div></a>
-            </nav>
-        </header>
-        <div class="section light">
-            <h1 id="About">About</h1>
-            <p>Roblox Development, at its finest!</p>
-            <p>
-                Welcome to Mindfog Development, a Roblox development group focusing on creating professional, performant, playable experiences.
-                <br>
-                <br>
-                Our variety of experience genres allows many players in search of their preferred genre to find a suitable experience in our library.
-                <br>
-                <br>
-                We hope to provide a smooth feeling to all our experiences.
-            </p>
-        </div>
-        <div class="section">
-            <h1 id="latest-news">Latest News</h1>
-            <div class="latest-news-post">
-                <div class="news-subtitle">May 14, 2025</div>
-                <h2>Website Development</h2>
-                <p>The website is WIP.</p>
-                <hr>
-                <img src="./assets/images/news/2025-05-14-website.PNG">
-            </div>
-            <a href="./news.html">
-                <div class="button">VIEW MORE</div>
-            </a>
-        </div>
-        <div class="section light">
-            <h1 id="release-date">Release Date</h1>
-            <p>
-                Our current planned experiences include:
-                <li>DRUID - [TBD]</li>
-                <li>Light Up the Dark - [TBD]</li>
-            </p>
-            <br>
-            <p>
-                Keep up with our news posts to be notified of when release dates change!
-                <br>
-                <br>
-                We are aiming for a weekly update basis to keep players informed with sneak peeks, fixes, new games, and more!
-            </p>
-        </div>
+    <div class="hero">
+        <img src="./assets/images/temp-herobg.png" class="hero-bg">
+        <div class="hero-bg-vignette"></div>
+        <a href="./index.html"><img src="./assets/images/MFDLogo.png" class="logo"></a>
+        <div class="scroll-icon"><img src="./assets/images/scroll.svg"></div>
     </div>
-    <footer>
+    <header class="cHeader">
+        <nav>
+            <a href="./index.html" class="image"><img src="./assets/images/Small_MFDLogo.png"></a>
+            <a href="./index.html" selected><div>HOME</div></a>
+            <a href="./news.html"><div>NEWS</div></a>
+        </nav>
+        <div class="social-list">
+            <a href="https://github.com/JackaBoiGamez/MindfogDevelopment" target="_blank">
+                <div class="fa-brands fa-github" aria-hidden="true"></div>
+            </a>
+        </div>
+    </header>
+    <div class="section light">
+        <h1 id="About">About</h1>
+        <p>Roblox Development, at its finest!</p>
+        <p>
+            Welcome to Mindfog Development, a Roblox development group focusing on creating professional, performant, playable experiences.
+            <br>
+            <br>
+            Our variety of experience genres allows many players in search of their preferred genre to find a suitable experience in our library.
+            <br>
+            <br>
+            We hope to provide a smooth feeling to all our experiences.
+        </p>
+    </div>
+    <div class="section">
+        <h1 id="latest-news">Latest News</h1>
+        <!-- Post #3 -->
+        <div class="latest-news-post">
+            <div class="news-subtitle">May 16, 2025</div>
+            <h2>Website Source Update</h2>
+            <p>The website has had an entire rewrite to cleanup the code.</p>
+            <hr>
+            <img src="./assets/images/news/2025-05-16-Website_Source_Update.PNG">
+        </div>
+        <a href="./news.html">
+            <div class="button">VIEW MORE</div>
+        </a>
+    </div>
+    <div class="section light">
+        <h1 id="release-date">Release Date</h1>
+        <p>
+            Our current planned experiences include:
+            <li>DRUID - [TBD]</li>
+            <br>
+            <li>Light Up the Dark - [TBD]</li>
+        </p>
+        <br>
+        <p>
+            Keep up with our news posts to be notified of when release dates change!
+            <br>
+            <br>
+            We are aiming for a weekly update basis to keep players informed with sneak peeks, fixes, new games, and more!
+        </p>
+    </div>
+    <footer class="cFooter">
         <a href="./index.html">
             <img src="./assets/images/Small_MFDLogo.png">
         </a>

@@ -3,41 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News - mDev</title>
+    <title>mDev</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/ee1427c2d9.js" crossorigin="anonymous"></script>
     <script src="./assets/js/jquery.min.js"></script>
     <link rel="icon" type="image/png" href="./assets/images/Small_MFDLogo.png">
 </head>
 <body>
-    <div class="body-wrapper">
-        <header>
-            <nav>
-                <a href="./index.html" class="image"><img src="./assets/images/Small_MFDLogo.png"></a>
-                <a href="./index.html"><div>HOME</div></a>
-                <a href="./news.html" selected><div>NEWS</div></a>
-            </nav>
-        </header>
-        <div class="page-wrapper">
-            <h1>News</h1>
-
-            <div class="news-post">
-                <div class="news-subtitle">May 14, 2025</div>
-                <h2>Website Development</h2>
-                <p>The website is WIP.</p>
-                <hr>
-                <img src="./assets/images/news/2025-05-14-website.PNG">
-            </div>
-
-            <div class="news-post">
-                <div class="news-subtitle">May 14, 2025</div>
-                <h2>New Beginning</h2>
-                <p>Work on LUTD has been Started!!!</p>
-                <hr>
-                <img src="./assets/images/news/2025-05-14.PNG">
-            </div>
+    <header class="cHeader">
+        <nav>
+            <a href="./index.html" class="image"><img src="./assets/images/Small_MFDLogo.png"></a>
+            <a href="./index.html"><div>HOME</div></a>
+            <a href="./news.html" selected><div>NEWS</div></a>
+        </nav>
+        <div class="social-list">
+            <a href="https://github.com/JackaBoiGamez/MindfogDevelopment" target="_blank">
+                <div class="fa-brands fa-github" aria-hidden="true"></div>
+            </a>
         </div>
+    </header>
+    <div class="page-wrapper">
+        <h1>News</h1>
+
+        <!-- Post #3 -->
+        <div class="news-post">
+            <div class="news-subtitle">May 16, 2025</div>
+            <h2>Website Source Update</h2>
+            <p>The website has had an entire rewrite to cleanup the code.</p>
+            <hr>
+            <img src="./assets/images/news/2025-05-16-Website_Source_Update.PNG">
+        </div>
+
+        <!-- Post #2 -->
+        <div class="news-post">
+            <div class="news-subtitle">May 14, 2025</div>
+            <h2>Website Development</h2>
+            <p>The website is WIP.</p>
+            <hr>
+            <img src="./assets/images/news/2025-05-14-Website_Development.PNG">
+        </div>
+
+        <!-- Post #1 -->
+        <div class="news-post">
+            <div class="news-subtitle">May 14, 2025</div>
+            <h2>New Beginning</h2>
+            <p>Work on LUTD has been Started!!!</p>
+            <hr>
+            <img src="./assets/images/news/2025-05-14-New_Beginning.PNG">
+        </div>
+
     </div>
-    <footer>
+    <footer class="cFooter">
         <a href="./index.html">
             <img src="./assets/images/Small_MFDLogo.png">
         </a>
@@ -48,6 +64,5 @@
             We are NOT affiliated, associated, authorized, endorsed by, or in any way officially connected with: Roblox®
         </div>
     </footer>
-    <script src="./assets/js/script.js"></script>
 </body>
 </html>

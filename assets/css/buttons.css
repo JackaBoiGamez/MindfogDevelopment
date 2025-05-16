@@ -7,10 +7,18 @@
     border-radius: 1000px;
     background-color: var(--accent-purple);
     transition: .2s;
-}
 
-a:has(.button) {
-    text-decoration: none !important;
+    .deactivated {
+        background-color: var(--deactivated) !important;
+        color: var(--text-deactivated) !important;
+        cursor: default !important;
+    }
+
+    div {
+        margin-right: 10px;
+        transition: .2s;
+    }
+
 }
 
 .button:not(.deactivated):hover {
@@ -19,13 +27,6 @@ a:has(.button) {
     transition: .2s;
 }
 
-.button.deactivated {
-    background-color: var(--deactivated) !important;
-    color: var(--text-deactivated) !important;
-    cursor: default !important;
-}
-
-.button div {
-    margin-right: 10px;
-    transition: .2s;
+a:has(.button) {
+    text-decoration: none !important;
 }
