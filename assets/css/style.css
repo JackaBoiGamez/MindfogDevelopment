@@ -25,6 +25,20 @@ body {
     box-sizing: border-box;
 }
 
+p {
+    line-height: 140%;
+    font-size: 20px;
+    margin-top: 0;
+    color: var(--text-secondary);
+    a {
+        color: var(--text-link);
+    }
+}
+
+a {
+     text-decoration: none;
+}
+
 .section {
     padding: 50px 10vw;
 
@@ -34,21 +48,6 @@ body {
         margin-bottom: 10px;
     }
 }
-
-p {
-        line-height: 140%;
-        font-size: 20px;
-        margin-top: 0;
-        color: var(--text-secondary)
-    }
-
-    p a {
-        color: var(--text-link);
-    }
-
-    a {
-        text-decoration: none;
-    }
 
 .section.light {
     background-color: var(--background-light);
